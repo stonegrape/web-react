@@ -8,6 +8,8 @@ const DATA = [
   {id:"todo-1",name:"Sleep",completed:false},
   {id:"todo-2",name:"Repeat",completed:false}
 ];
+
+
 ReactDOM.render(<App tasks={DATA} />, document.getElementById("root")); 
 
 // If you want to start measuring performance in your app, pass a function
